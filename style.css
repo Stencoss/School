@@ -2,3 +2,13 @@ table, th, td {
 	border: 1px solid black;
 }
 
+#outer-content{
+	background-color: black;
+	align-content: left;
+	height: 40cm;
+}
+
+#inner-content{
+	background-color: red;
+	height: 4cm
+}
