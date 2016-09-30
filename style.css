@@ -5,10 +5,13 @@ table, th, td {
 #outer-content{
 	background-color: black;
 	align-content: left;
-	height: 40cm;
+	height: 5cm;
 }
 
 #inner-content{
 	background-color: red;
-	height: 4cm
+	height: 4cm;
+	position: absolute;
+	bottom: 10;
+	left: 5;
 }
