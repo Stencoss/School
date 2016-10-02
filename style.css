@@ -49,3 +49,21 @@ form, p {
 	padding-bottom: 10px;
 	padding-left: 10px;
 }
+
+/* Code was reveiwed and based off of code from 
+http://stackoverflow.com/questions/21792359/putting-text-on-a-border-with-css
+*/
+#contianer {
+	border: 10px solid black;
+	padding: 10px;
+}
+
+#formTitle {
+	float: left;
+	padding: 0 10px;
+	margin: -20px 0 0 40px;
+	background: #fff; 
+	/* The border does go trhough the text but the bacground
+	that is white makes it so it does not show on the screen.
+	but technically it is there.... */
+}
