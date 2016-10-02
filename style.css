@@ -1,9 +1,6 @@
 table, th, td {
 	border: 1px solid black;
 }
-#table_i{
-	font-style: italic;
-}
 
 #outer-content {
     position: relative;
@@ -30,12 +27,12 @@ form  {
 
 table.table1 tr:nth-child(even)
 {
-	background-color: green;
+	background-color: #66cc00;
 }
 
 table.table1 tr:nth-child(odd)
 {
-	background-color: blue;
+	background-color: lightblue;
 }
 
 table.table1 tr:first-child{
@@ -44,4 +41,11 @@ table.table1 tr:first-child{
 
 table.table1 tr:last-child{
 	background-color: white;
+}
+
+form, p {
+	border: 1px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
 }
