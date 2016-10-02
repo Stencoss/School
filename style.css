@@ -1,17 +1,47 @@
 table, th, td {
 	border: 1px solid black;
 }
-
-#outer-content{
-	background-color: black;
-	align-content: left;
-	height: 5cm;
+#table_i{
+	font-style: italic;
 }
 
-#inner-content{
-	background-color: red;
-	height: 4cm;
-	position: absolute;
-	bottom: 10;
-	left: 5;
+#outer-content {
+    position: relative;
+    width: 75em;
+    height: 60px;
+    background-color: #ff9980;
+
+}
+
+#inner-content {
+    position: absolute;
+    top: 20px;
+    right: 50%;
+    height: 20px;
+    left: 30%;
+    width: 29em;
+    background-color: lightblue;
+}
+
+form  {
+	border: 1px solid black;
+}
+
+
+table.table1 tr:nth-child(even)
+{
+	background-color: green;
+}
+
+table.table1 tr:nth-child(odd)
+{
+	background-color: blue;
+}
+
+table.table1 tr:first-child{
+	background-color: white;
+}
+
+table.table1 tr:last-child{
+	background-color: white;
 }

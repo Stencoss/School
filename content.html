@@ -9,7 +9,7 @@
  </head>
  <body>
  
- <table>
+ <table class="table1">
   	<caption>Who wins? content indicates the status of the row entry</caption>
   	<thead>
   	<tr>
@@ -21,8 +21,8 @@
   		<th>Abe Lincoln</th>
   	</tr>
 
-  	<tr name="greenRow">					<!-- This row will be green -->
-  		<td>Godzilla</td>	<!-- This will be italized -->
+  	<tr name="greenRow">			<!-- This row will be green -->
+  		<td><i>Godzilla</i></td>	<!-- This will be italized -->
   		<td><font color="red">N/A</font></td>		<!-- This will be red -->
   		<td>Minor Loss</td>
   		<td><font color="blue">Loss</font></td>		<!-- This will be blue text -->
@@ -30,17 +30,17 @@
   		<td>Unknown</td>
   	</tr>
 
-  	<tr>						<!-- This row will be blue -->
-  		<td>Batman</td>			<!-- This will be italized -->
-  		<td><font color="red">Minor Win</font></td>		<!-- This will be red -->
+  	<tr>							<!-- This row will be blue -->
+  		<td><i>Batman</i></td>		<!-- This will be italized -->
+  		<td><font color="red">Minor Win</font></td>			<!-- This will be red -->
   		<td>N/A</td>
   		<td><font color="blue">Total Victory</font></td>	<!-- This will be blue text -->
   		<td>Total Victory</td>
   		<td>Total Loss</td>
   	</tr>
 
-  	<tr>						<!-- This row will be green -->
-   		<td>Shaq</td>			<!-- This will be italized -->
+  	<tr>								<!-- This row will be green -->
+   		<td><i>Shaq</i></td>			<!-- This will be italized -->
   		<td><font color="red">Win</font></td>			<!-- This will be red -->
   		<td>Total Loss</td>
   		<td><font color="blue">N/A</font></td>			<!-- This will be blue text -->
@@ -49,7 +49,7 @@
   	</tr>
 
   	<tr>						<!-- This row will be blue -->
-  		<td>Aron Carter</td>	<!-- This will be italized -->
+  		<td><i>Aron Carter</i></td>	<!-- This will be italized -->
   		<td><font color="red">Unknown </font></td>		<!-- This will be red -->
   		<td>Total Loss</td>
   		<td><font color="blue">Minor Win</font></td>		<!-- This will be blue text -->
@@ -58,7 +58,7 @@
   	</tr>
 
     <tr>						<!-- This row will be green -->
-  		<td>Abe Lincoln</td>		<!-- This will be italized -->
+  		<td><i>Abe Lincoln</i></td>		<!-- This will be italized -->
   		<td><font color="red">Unknown </font></td>		<!-- This will be red -->
   		<td>Total Victory</td>
   		<td><font color="blue">Unknown</font></td>		<!-- This will be blue text -->
@@ -94,39 +94,44 @@
 <!-- Create my divs here -->
 <!-- div div div div div -->
 <div id='outer-content'>
-     <div id='inner-content'>
+     <div id='inner-content' align="center">
       Here is some content
      </div>
 </div>
+<br/>
+<br/>
 
 
 <!-- Forms still need borders -->
 <!-- This is where the Get Form will go -->
 <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
-  <p>Get some Data</p>
-  <p>Text here: 
-     <input type="text" name="text_input" size="15" maxlength="30"/>
-  </p>
-  <p>Number here:
-     <input type="number" name="numerical_input" size="15" maxlength="30">
-  </p>
-  <p>Password here:
+  <div id='form_div' >Get some Data
+ 	 <p>Text here: 
+	     <input type="text" name="text_input" size="15" maxlength="30"/>
+ 	 </p>
+ 	 <p>Number here:
+ 	    <input type="number" name="numerical_input" size="15" maxlength="30">
+ 	 </p>
+ 	 <p>Password here:
      <input type="password" name="password_input" size="15" maxlength="30">
-  </p>
-  <p>Select between:
-    <br />
-    <input type="radio" name="candy" value="Snickers">Snickers
-    <br />
-    <input type="radio" name="candy" value="Skittles">Skittles
-    <br />
-    <input type="radio" name="candy" value="Mentos">Mentos
-  </p>
+ 	 </p>
+ 	 <p>Select between:
+  	  <br />
+	    <input type="radio" name="candy" value="Snickers">Snickers
+ 	   <br />
+	   <input type="radio" name="candy" value="Skittles">Skittles
+ 	   <br />
+ 	   <input type="radio" name="candy" value="Mentos">Mentos
+ 	 </p>
 
-  <p>
-    <input type="submit" name="submit" value="Submit">
-  </p>
+ 	 <p>
+ 	   <input type="submit" name="submit" value="Submit">
+ 	 </p>
+  </div>
 </form>
 
+<br/>
+<br/>
 <!-- This is where the post form will go -->
 
 <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
